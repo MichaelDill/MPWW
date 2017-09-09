@@ -1,0 +1,67 @@
+.center-block {
+  display: table;
+  margin: 0 auto;
+}
+
+.robo {
+    font-family: 'Roboto', sans-serif !important;
+}
+
+.lato {
+    font-family: 'Lato', sans-serif;
+}
+
+
+
+/*Navbar Styles*/
+
+.navbar-cont {
+    opacity: .8;
+}
+
+/*Header*/
+.header {
+    color: #fff;
+    background: #009fc2;
+    color: #fff;
+}
+
+.header h1, .header h5 {
+    margin: auto;
+    margin-bottom: .5em;
+}
+
+.logo1 {
+    width: 20%;
+    min-width: 114px;
+    min-height: 111px;
+
+}
+
+/*Footer*/
+
+.footer {
+    color: #E6E6E6;
+}
+/*testing styles*/
+
+
+.test2{
+        height:400px;
+}
+
+.lb {
+        background: #009fc2;
+}
+
+.db {
+        background: #00445C;
+}
+
+.yw {
+        background: #E4D546;
+}
+
+.yw-text {
+        color: #E4D546;
+}
