@@ -33,7 +33,7 @@
         <div class="container">
             <div class="row">
                 <nav class="navbar navbar-expand-sm navbar-dark bg-dark center-block">
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler center-block" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarCollapse">
@@ -54,9 +54,31 @@
         </div>
 </div>
 
-    <div class="container-fluid test2"><!-- section1-->
+    <div class="container-fluid section1"><!-- section1-->
         <div class="container">
             <div class="row">
+                <div class="col-md-6 center-block">
+                    <div class="quote-border"></div>
+                    <div class="quote-form">
+                        <h3>Request a Quote Today!</h3>
+
+                        <formname="contactform" method="post" action="send_form_email.php">
+
+                            <input  class="form-control" type="text" name="first_name" placeholder="First Name" maxlength="50" size="30"><br />
+
+                            <input  class="form-control" type="text" name="last_name" placeholder="Last Name" maxlength="50" size="30"><br />
+
+                            <input  class="form-control" type="text" name="email" placeholder="Email" maxlength="80" size="30"><br />
+
+                            <input  class="form-control" type="text" name="telephone" placeholder="Phone Number" maxlength="30" size="30"><br />
+
+                            <textarea  class="form-control" name="comments" placeholder="Comments" maxlength="1000" cols="25" rows="6"></textarea><br />
+
+                            <button class="btn btn-primary" type="submit">Request Quote</button>
+                        </form>
+                    </div>
+                </div>
+
             </div>
         </div>
     </div>

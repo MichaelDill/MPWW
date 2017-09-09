@@ -19,6 +19,12 @@
     opacity: .8;
 }
 
+a.nav-link {
+    text-align: center;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
 /*Header*/
 .header {
     color: #fff;
@@ -29,6 +35,7 @@
 .header h1, .header h5 {
     margin: auto;
     margin-bottom: .5em;
+    text-align: center;
 }
 
 .logo1 {
@@ -36,6 +43,31 @@
     min-width: 114px;
     min-height: 111px;
 
+}
+
+/* Section 1 */
+
+.section1 {
+    background: url('../assets/house.jpg')  no-repeat fixed center;
+    background-size: cover;
+    
+}
+
+/* Quote Form */
+.quote-border {
+    background: #009fc2;
+    opacity: .9;
+    border-radius: 5px 5px 0 0;
+    height: 15px;
+    margin-top: 10em;
+}
+.quote-form {
+    text-align: center;
+    background: #fff;
+    opacity: .9;
+    border-radius: 0 0 5px 5px;
+    margin-bottom: 10em;
+    padding: 2em;
 }
 
 /*Footer*/
@@ -47,7 +79,7 @@
 
 
 .test2{
-        height:400px;
+        height:50em;
 }
 
 .lb {
