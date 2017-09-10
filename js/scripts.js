@@ -1,7 +1,9 @@
 (function ($) {
   $(document).ready(function(){
     
-	// hide .navbar first
+	$('.carousel').carousel({
+  interval: 6000
+})
 	
 
     

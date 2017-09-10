@@ -66,24 +66,49 @@ a.nav-link {
 .section1 {
     background: url('../assets/house.jpg')  no-repeat fixed center;
     background-size: cover;
-    
 }
 
+.banner1 {
+    color: #fff;
+    text-align: center;
+    opacity: .9;
+    border-radius: 5px;
+    margin-bottom: 10em;
+    padding: 1em;
+    margin: 4em 0 2em 0;
+}
 /* Quote Form */
 .quote-border {
     background: #009fc2;
     opacity: .9;
     border-radius: 5px 5px 0 0;
     height: 15px;
-    margin-top: 10em;
+    margin-top: 2em;
 }
 .quote-form {
     text-align: center;
     background: #fff;
     opacity: .9;
     border-radius: 0 0 5px 5px;
-    margin-bottom: 10em;
-    padding: 2em;
+    margin-bottom: 4em;
+    padding: 1em;
+}
+
+/*Section 2*/
+
+#quote-carousel {
+    color: #fff;
+    height: 14em;
+    
+}
+
+.carousel-item{
+    margin-top: 2em;
+    height: 10em;
+}
+
+.carousel-item blockquote{
+    font-size: 1.2em;
 }
 
 /*section 3*/
@@ -104,6 +129,72 @@ a.nav-link {
 .footer {
     color: #E6E6E6;
 }
+
+/*responsive styles*/
+
+/* Extra small devices (portrait phones, less than 576px)*/
+/* No media query since this is the default in Bootstrap*/
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) { 
+
+
+ }
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) { ... }
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) { 
+    
+.banner1 {
+    color: #fff;
+    text-align: center;
+    opacity: .9;
+    border-radius: 5px;
+    padding: 2em;
+    margin: 8em 0;
+}
+/* Quote Form */
+.quote-border {
+    margin-top: 8em;
+}
+.quote-form {
+    margin-bottom: 8em;
+    padding: 2em;
+}
+
+/*Section 2*/
+
+#quote-carousel {
+    color: #fff;
+    height: 20em;
+}
+
+.carousel-item{
+    height: 16em;
+}
+
+.carousel-item blockquote{
+    font-size: 2em;
+}
+
+     }
+
+
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { ... }
+
+
+
+
+
+
+
+
+
+
 /*testing styles*/
 
 
