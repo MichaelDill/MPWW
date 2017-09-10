@@ -1,6 +1,6 @@
 <?php include('header.php') ?>
 
-    <div class="container-fluid test"><!-- section1-->
+    <div class="container-fluid"><!-- section1-->
         <div class="container">
             <div class="row about1">
                     <div class="col-md-8">

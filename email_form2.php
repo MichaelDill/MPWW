@@ -9,7 +9,7 @@ header("Access-Control-Allow-Origin: *");
 if(isset($_GET['email'])) {
 $EmailFrom = "contact@mpwindowsgutters.com";
 //$EmailTo = "paul@mpwindowsgutters.com";
-$EmailTo = "contact@mpwindowsgutters.com";
+$EmailTo = "paul@mpwindowsgutters.com";
 $Subject = "Quote Request";
 
 $Name = $_GET['name']; // required
