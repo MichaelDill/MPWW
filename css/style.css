@@ -31,14 +31,26 @@
 
 /*Navbar Styles*/
 
+body .navbar {
+    height: auto;
+}
+
 .navbar-cont {
     opacity: .8;
+    z-index: 10000;
 }
 
 a.nav-link {
     text-align: center;
     padding-right: 1rem;
     padding-left: 1rem;
+}
+
+.filler {
+    height: 56px;
+    background: #009fc2;
+    z-index: 100000;
+    position: relative;
 }
 
 /*Header*/
@@ -94,6 +106,11 @@ a.nav-link {
     padding: 1em;
 }
 
+.map {
+    padding: 1em;
+    margin: 4em 0 2em 0;
+}
+
 /*Section 2*/
 
 #quote-carousel {
@@ -124,10 +141,22 @@ a.nav-link {
     height: 10em;
 }
 
+
+/* About */
+
+.about1 {
+    padding: 2em 0;
+}
+
+
 /*Footer*/
 
 .footer {
     color: #E6E6E6;
+}
+
+.foot-div {
+    margin:2em 0;
 }
 
 /*responsive styles*/
@@ -164,6 +193,11 @@ a.nav-link {
     padding: 2em;
 }
 
+.map {
+    padding: 2em;
+    margin: 8em 0;
+}
+
 /*Section 2*/
 
 #quote-carousel {
@@ -198,8 +232,8 @@ a.nav-link {
 /*testing styles*/
 
 
-.test2{
-        height:20em;
+.test {
+        height:800px;
 }
 
 .lb {
