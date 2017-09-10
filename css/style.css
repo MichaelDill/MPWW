@@ -1,3 +1,19 @@
+@font-face {
+      font-family: 'mp-custom';
+      src: url('../assets/font/mp-custom.eot?28560987');
+      src: url('../assets/font/mp-custom.eot?28560987#iefix') format('embedded-opentype'),
+           url('../assets/font/mp-custom.woff?28560987') format('woff'),
+           url('../assets/font/mp-custom.ttf?28560987') format('truetype'),
+           url('../assets/font/mp-custom.svg?28560987#mp-custom') format('svg');
+      font-weight: normal;
+      font-style: normal;
+    }
+
+    i {
+        font-family: 'mp-custom';
+        font-style: normal;
+    }
+
 .center-block {
   display: table;
   margin: 0 auto;
@@ -70,6 +86,19 @@ a.nav-link {
     padding: 2em;
 }
 
+/*section 3*/
+
+.accolades {
+    text-align: center;
+    color: #00445C;
+    font-size: 4em;
+}
+
+.acc-div {
+    width: 10em;
+    height: 10em;
+}
+
 /*Footer*/
 
 .footer {
@@ -79,7 +108,7 @@ a.nav-link {
 
 
 .test2{
-        height:50em;
+        height:20em;
 }
 
 .lb {
