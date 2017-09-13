@@ -11,15 +11,15 @@
 
                         <form name="contactform">
 
-                            <input  class="form-control" type="text" id = "first_name" name="first_name" placeholder="First Name" maxlength="50" size="30"><br />
-
-                            <input  class="form-control" type="text" id="last_name" name="last_name" placeholder="Last Name" maxlength="50" size="30"><br />
-
-                            <input  class="form-control" type="text" id="email" name="email" placeholder="Email" maxlength="80" size="30"><br />
-
-                            <input  class="form-control" type="text" id="telephone" name="telephone" placeholder="Phone Number" maxlength="30" size="30"><br />
-
-                            <textarea  class="form-control" id="comments" name="comments" placeholder="Comments" maxlength="1000" cols="25" rows="6"></textarea><br />
+                            <input  class="form-control" type="text" id = "first_name" name="first_name" placeholder="First Name" maxlength="50" size="30" required>
+                            <div class="fNameVal hint">Please provide a first name</div><br />
+                            <input  class="form-control" type="text" id="last_name" name="last_name" placeholder="Last Name" maxlength="50" size="30" required>
+                            <div class="lNameVal hint">Please provide a last name</div><br />
+                            <input  class="form-control" type="text" id="email" name="email" placeholder="Email" maxlength="80" size="30" required>
+                            <div class="emailVal hint">Please provide a valid email</div><br />
+                            <input  class="form-control" type="text" id="telephone" name="telephone" placeholder="Phone Number" maxlength="30" size="30" required>
+                            <div class="telVal hint">Please provide a valid telephone number with area code</div><br />
+                            <textarea  class="form-control" id="comments" name="comments" placeholder="Comments" maxlength="1000" cols="25" rows="6"></textarea>
 
                             <button class="btn btn-primary" type="submit" id="contact-submit">Request Quote</button>
                         </form>

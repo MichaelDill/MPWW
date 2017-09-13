@@ -13,6 +13,23 @@
 </head>
 <body>
 
+<div class="modal" id="confModal">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>Your Quote Request has been sent. We will be in contact with you soon!</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
 
     <div class="container-fluid header"><!-- top section w/ logo, and menu-->
         <div class="container">
@@ -31,7 +48,7 @@
     <div class="container-fluid bg-dark navbar-cont"><!-- navbar-->
         <div class="container">
             <div class="row">
-                <nav class="navbar navbar-expand-sm navbar-dark bg-dark center-block">
+                <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
                 <button class="navbar-toggler center-block" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>

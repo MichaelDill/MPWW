@@ -7,15 +7,18 @@ header('Content-Type: application/json');
 header("Access-Control-Allow-Origin: *");
 
 if(isset($_GET['email'])) {
-$EmailFrom = "contact@mpwindowsgutters.com";
-//$EmailTo = "paul@mpwindowsgutters.com";
-$EmailTo = "paul@mpwindowsgutters.com";
-$Subject = "Quote Request";
 
 $Name = $_GET['name']; // required
 $Email = $_GET['email']; // required
 $Tel = $_GET['tel']; // not required
 $Comments = $_GET['comments']; // required
+
+
+
+$EmailFrom = $Email;
+//$EmailTo = "paul@mpwindowsgutters.com";
+$EmailTo = "paul@mpwindowsgutters.com";
+$Subject = "Quote Request";
 
 
 // prepare email body text

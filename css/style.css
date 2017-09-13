@@ -27,17 +27,21 @@
     font-family: 'Lato', sans-serif;
 }
 
-
+.modal {
+    z-index: 1000000;
+}
 
 /*Navbar Styles*/
 
 body .navbar {
     height: auto;
+    display: table;
+    margin: 0 auto;
 }
 
 .navbar-cont {
-    opacity: .8;
-    z-index: 10000;
+    opacity: .9;
+    z-index: 1000;
 }
 
 a.nav-link {
@@ -49,9 +53,10 @@ a.nav-link {
 .filler {
     height: 56px;
     background: #009fc2;
-    z-index: 100000;
+    z-index: 1000;
     position: relative;
 }
+
 
 /*Header*/
 .header {
@@ -104,6 +109,13 @@ a.nav-link {
     border-radius: 0 0 5px 5px;
     margin-bottom: 4em;
     padding: 1em;
+}
+
+.hint {
+    display: none;
+    margin-top: .25rem;
+    font-size: .875rem;
+    color: #dc3545;
 }
 
 .map {
@@ -167,15 +179,21 @@ a.nav-link {
 /* Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) { 
 
-
  }
 
 /* Medium devices (tablets, 768px and up)*/
-@media (min-width: 768px) { ... }
+@media (min-width: 768px) { 
+
+ }
 
 /* Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) { 
-    
+
+a.nav-link {
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
 .banner1 {
     color: #fff;
     text-align: center;
